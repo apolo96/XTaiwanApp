@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XTaiwanApp"
+             x:Class="XTaiwanApp.MainPage">
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection Title="Page">
+                <ViewCell>
+                    <Button Text="MasterDetail"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="TabbedPage"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="CarouselPage"/>
+                </ViewCell>
+            </TableSection>
+            <TableSection Title="Layout">
+                <ViewCell>
+                    <Button Text="StackLayout"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Grid"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="AbsoluteLayout"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="RelativeLayout"/>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+
+</ContentPage>
