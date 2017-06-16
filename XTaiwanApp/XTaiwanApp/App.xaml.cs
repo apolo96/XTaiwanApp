@@ -13,7 +13,7 @@ namespace XTaiwanApp
         {
             InitializeComponent();
 
-            MainPage = new XTaiwanApp.MainPage();
+            MainPage = new NavigationPage(new XTaiwanApp.MainPage());
 
         }
 

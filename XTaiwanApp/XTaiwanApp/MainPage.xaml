@@ -18,16 +18,24 @@
             </TableSection>
             <TableSection Title="Layout">
                 <ViewCell>
-                    <Button Text="StackLayout"/>
+                    <Button Text="StackLayout" Clicked="Button_Clicked"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Grid"/>
+                    <Button Text="Grid Basic" Clicked="Button_Clicked_1"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Grid Advance" Clicked="Button_Clicked_2"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="AbsoluteLayout"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="RelativeLayout"/>
+                </ViewCell>
+            </TableSection>
+            <TableSection Title="View">
+                <ViewCell>
+                    <Button Text="ListView"/>
                 </ViewCell>
             </TableSection>
         </TableRoot>

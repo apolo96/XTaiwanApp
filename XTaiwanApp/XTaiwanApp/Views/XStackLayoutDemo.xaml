@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XTaiwanApp.Views.XStackLayoutDemo"
+             BackgroundColor="White"
+             Padding="10">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" 
+                    iOS="0,20,0,0"
+                    Android="0, 0, 0, 0"
+                    WinPhone="0, 0, 0, 0" />
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Image 
+                    Source="http://photos3.meetupstatic.com/photos/event/7/3/0/c/highres_424289452.jpeg" 
+                    Aspect="AspectFit" 
+                    HeightRequest="80"/>
+                <BoxView HeightRequest="1" BackgroundColor="Gray" Opacity="5"/>
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    <Label Text="Start"                           
+                           VerticalOptions="Start" 
+                           HorizontalOptions="Start"
+                           FontSize="Large"
+                           />
+                    <Label Text="End" 
+                           VerticalOptions="End" 
+                           HorizontalOptions="End"
+                           FontSize="Large"/>
+                    <Label Text="Fill" 
+                           VerticalOptions="Fill" 
+                           HorizontalOptions="Fill"
+                           FontSize="Large"/>
+                    <Label Text="Center" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Center"
+                           FontSize="Large"
+                           />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Label Text="Guardar"                            
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Eliminar" 
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="FillAndExpand"
+                           />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
