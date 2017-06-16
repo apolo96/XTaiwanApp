@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XTaiwanApp.Views.XAbsoluteLayoutDemo">
+    <ContentPage.Content>
+        <AbsoluteLayout 
+            VerticalOptions="FillAndExpand"  
+            HorizontalOptions="FillAndExpand">
+            <ScrollView 
+                    AbsoluteLayout.LayoutFlags="All"  
+                    AbsoluteLayout.LayoutBounds="0,0.5,1,1">
+                <StackLayout
+                        Spacing="30"
+                        Padding="20"
+                        VerticalOptions="FillAndExpand">
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                    <Label Text="Hello Xamarin Forms" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </ScrollView>
+            <Button 
+                Text="Nuevo"
+                AbsoluteLayout.LayoutFlags="PositionProportional"   
+                AbsoluteLayout.LayoutBounds="0.5,1,250,50"
+                >
+                <Button.BorderRadius>
+                    <!-- HACK: fixes a bug where border doesn't get draw unless there is a radius. -->
+                    <OnPlatform x:TypeArguments="x:Int32">
+                        <OnPlatform.Android>20</OnPlatform.Android>
+                    </OnPlatform>
+                </Button.BorderRadius>
+            </Button>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

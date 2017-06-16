@@ -27,7 +27,10 @@
                     <Button Text="Grid Advance" Clicked="Button_Clicked_2"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="AbsoluteLayout"/>
+                    <Button Text="AbsoluteLayout" Clicked="Button_Clicked_3"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="AbsoluteLayout_Loader" Clicked="Button_Clicked_4"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="RelativeLayout"/>
