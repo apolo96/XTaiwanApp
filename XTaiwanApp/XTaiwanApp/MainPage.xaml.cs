@@ -39,5 +39,10 @@ namespace XTaiwanApp
         {
             Navigation.PushAsync(new XAbsoluteLoaderDemo());
         }
+
+        private void Button_Clicked_5(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new XAbsoluteContentDemo());
+        }
     }
 }

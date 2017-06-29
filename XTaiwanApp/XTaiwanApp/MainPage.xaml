@@ -33,6 +33,9 @@
                     <Button Text="AbsoluteLayout_Loader" Clicked="Button_Clicked_4"/>
                 </ViewCell>
                 <ViewCell>
+                    <Button Text="AbsoluteLayout_Content" Clicked="Button_Clicked_5"/>
+                </ViewCell>
+                <ViewCell>
                     <Button Text="RelativeLayout"/>
                 </ViewCell>
             </TableSection>

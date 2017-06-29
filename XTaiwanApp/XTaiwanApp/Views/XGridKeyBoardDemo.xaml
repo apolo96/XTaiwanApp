@@ -118,7 +118,7 @@
                     Grid.ColumnSpan="3"
                     Text="Llamar"
                     Style="{StaticResource button_success}"
-                    WidthRequest="40" HeightRequest="40"
+                    WidthRequest="20" HeightRequest="40"
                     Clicked="Button_Clicked">
                     <Button.BorderRadius>
                         <!-- HACK: fixes a bug where border doesn't get draw unless there is a radius. -->

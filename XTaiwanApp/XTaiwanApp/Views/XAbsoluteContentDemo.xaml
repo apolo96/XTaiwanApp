@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XTaiwanApp.Views.XAbsoluteContentDemo">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image 
+                Source="http://jeremecausing.com/wp-content/uploads/2016/11/Xamarin.jpg"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                Aspect="AspectFill"
+                AbsoluteLayout.LayoutFlags="All"/>
+            <Label Text="Xamarin"
+                   BackgroundColor="Black"
+                   Opacity="0.8"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds="0,1,0.5,0.1"
+                   AbsoluteLayout.LayoutFlags="All"/>
+            <Label Text="University"
+                   BackgroundColor="Black"
+                   Opacity="0.8"
+                   TextColor="OrangeRed"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds="1,1,0.5,0.1"
+                   AbsoluteLayout.LayoutFlags="All"/>
+            <Label Text="Title AbsoluteLayout"
+                   BackgroundColor="Black"
+                   Opacity="0.8"
+                   TextColor="OrangeRed"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds="0,0,1,0.1"
+                   AbsoluteLayout.LayoutFlags="All"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

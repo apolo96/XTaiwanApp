@@ -42,6 +42,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\XAbsoluteContentDemo.xaml.cs">
+      <DependentUpon>XAbsoluteContentDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\XAbsoluteLayoutDemo.xaml.cs">
       <DependentUpon>XAbsoluteLayoutDemo.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\XAbsoluteLoaderDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\XAbsoluteContentDemo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

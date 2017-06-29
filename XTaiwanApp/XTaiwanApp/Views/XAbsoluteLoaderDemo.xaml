@@ -7,7 +7,7 @@
             <Image 
                 Source="http://jeremecausing.com/wp-content/uploads/2016/11/Xamarin.jpg"
                 AbsoluteLayout.LayoutBounds="0,0,1,1"
-                Aspect="AspectFit"
+                Aspect="AspectFill"
                 AbsoluteLayout.LayoutFlags="All"/>
             <BoxView 
                 BackgroundColor="Black" 
@@ -15,7 +15,7 @@
                 AbsoluteLayout.LayoutBounds="0,0,1,1"
                 AbsoluteLayout.LayoutFlags="All"/>
             <ActivityIndicator 
-                Color="YellowGreen"
+                Color="White"
                 IsRunning="True"
                 AbsoluteLayout.LayoutBounds="0.5,0.5,0.1,0.1"
                 AbsoluteLayout.LayoutFlags="All"/>
