@@ -43,6 +43,9 @@
                 <ViewCell>
                     <Button Text="ListView"/>
                 </ViewCell>
+                <ViewCell>
+                    <Button Text="Entry Type" Clicked="Button_Clicked_6"/>
+                </ViewCell>
             </TableSection>
         </TableRoot>
     </TableView>

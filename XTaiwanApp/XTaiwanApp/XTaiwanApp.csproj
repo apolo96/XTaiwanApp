@@ -51,6 +51,9 @@
     <Compile Include="Views\XAbsoluteLoaderDemo.xaml.cs">
       <DependentUpon>XAbsoluteLoaderDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\XEntryTypeDemo.xaml.cs">
+      <DependentUpon>XEntryTypeDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\XGridDemo.xaml.cs">
       <DependentUpon>XGridDemo.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\XAbsoluteContentDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\XEntryTypeDemo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
