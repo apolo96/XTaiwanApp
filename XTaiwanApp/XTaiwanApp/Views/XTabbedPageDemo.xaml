@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XTaiwanApp.Views.TabbedContent"
+             x:Class="XTaiwanApp.Views.XTabbedPageDemo">
+  <!--Pages can be added as references or inline-->
+    <local:PageOne Title="PageOne"  Icon="image.png"/>
+    <local:PageTwo Title="PageTwo" Icon="image.png"/>
+    <local:PageThree Title="PageThree" Icon="image.png"/>
+</TabbedPage>

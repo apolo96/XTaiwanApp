@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XTaiwanApp.CustomElements.MyTabbedPage">
+    <Grid ColumnSpacing="0" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <ContentView x:Name="cvContentPlaceHolder" Grid.Row="0"/>
+        <BoxView BackgroundColor="#d1d9dd" Grid.Row="1"/>
+        <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="2" BackgroundColor="Gray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Spacing="0" Padding="0,5,0,5" Grid.Column="0">
+                <Image HeightRequest="30" Source="image.png"/>
+                <Label Text="User" FontSize="10" HorizontalOptions="Center"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_One"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <StackLayout Spacing="0" Padding="0,5,0,5" Grid.Column="1">
+                <Image HeightRequest="30" Source="image.png"/>
+                <Label Text="Notes" FontSize="10" HorizontalOptions="Center"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_PageTwo"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <StackLayout Spacing="0" Padding="0,5,0,5" Grid.Column="2">
+                <Image HeightRequest="30" Source="image.png"/>
+                <Label Text="Info" FontSize="10" HorizontalOptions="Center"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_Three"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

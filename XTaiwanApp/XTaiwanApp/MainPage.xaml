@@ -10,7 +10,10 @@
                     <Button Text="MasterDetail"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="TabbedPage"/>
+                    <Button Text="TabbedPage" Clicked="Button_Clicked_7"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="TabbedPageCustom" Clicked="Button_Clicked_8"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="CarouselPage"/>
@@ -21,10 +24,10 @@
                     <Button Text="StackLayout" Clicked="Button_Clicked"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Grid Basic" Clicked="Button_Clicked_1"/>
+                    <Button Text="GridBasic" Clicked="Button_Clicked_1"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Grid Advance" Clicked="Button_Clicked_2"/>
+                    <Button Text="GridAdvance" Clicked="Button_Clicked_2"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="AbsoluteLayout" Clicked="Button_Clicked_3"/>
@@ -44,7 +47,7 @@
                     <Button Text="ListView"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Entry Type" Clicked="Button_Clicked_6"/>
+                    <Button Text="EntryType" Clicked="Button_Clicked_6"/>
                 </ViewCell>
             </TableSection>
         </TableRoot>
