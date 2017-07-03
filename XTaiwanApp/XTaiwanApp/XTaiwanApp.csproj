@@ -45,6 +45,19 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MasterMenu\MasterPageItem.cs" />
+    <Compile Include="Views\MasterMenu\PagesDetail\Colecciones.xaml.cs">
+      <DependentUpon>Colecciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterMenu\PagesDetail\Configuracion.xaml.cs">
+      <DependentUpon>Configuracion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterMenu\PagesDetail\Material.xaml.cs">
+      <DependentUpon>Material.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterMenu\PagesDetail\Perfil.xaml.cs">
+      <DependentUpon>Perfil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\TabbedContent\PageOne.xaml.cs">
       <DependentUpon>PageOne.xaml</DependentUpon>
     </Compile>
@@ -74,6 +87,9 @@
     </Compile>
     <Compile Include="Views\XListViewDemo.xaml.cs">
       <DependentUpon>XListViewDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XMasterDetailPageDemo.xaml.cs">
+      <DependentUpon>XMasterDetailPageDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\XStackLayoutDemo.xaml.cs">
       <DependentUpon>XStackLayoutDemo.xaml</DependentUpon>
@@ -184,6 +200,36 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CustomElements\MyTabbedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\XMasterDetailPageDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MasterMenu\PagesDetail\Perfil.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MasterMenu\PagesDetail\Material.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MasterMenu\PagesDetail\Colecciones.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MasterMenu\PagesDetail\Configuracion.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

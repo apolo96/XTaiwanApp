@@ -7,7 +7,7 @@
         <TableRoot>
             <TableSection Title="Page">
                 <ViewCell>
-                    <Button Text="MasterDetail"/>
+                    <Button Text="MasterDetail" Clicked="Button_Clicked_9"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="TabbedPage" Clicked="Button_Clicked_7"/>

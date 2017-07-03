@@ -59,5 +59,10 @@ namespace XTaiwanApp
         {
             Navigation.PushAsync(new CustomElements.MyTabbedPage());
         }
+
+        private void Button_Clicked_9(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new XMasterDetailPageDemo());
+        }
     }
 }
