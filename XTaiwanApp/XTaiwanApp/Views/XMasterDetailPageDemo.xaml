@@ -18,7 +18,7 @@
                            VerticalOptions="FillAndExpand"
                            HorizontalOptions="FillAndExpand"/>
                 </StackLayout>
-                <ListView x:Name="lvMasterPageItems"
+                <ListView x:Name="lvMasterPageItems"                            
                             VerticalOptions="FillAndExpand" 
                             SeparatorVisibility="None"
                             ItemSelected="lvMasterPageItems_ItemSelected"

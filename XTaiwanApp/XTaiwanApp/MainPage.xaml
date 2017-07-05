@@ -16,7 +16,7 @@
                     <Button Text="TabbedPageCustom" Clicked="Button_Clicked_8"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="CarouselPage"/>
+                    <Button Text="CarouselPage" Clicked="Button_Clicked_10"/>
                 </ViewCell>
             </TableSection>
             <TableSection Title="Layout">

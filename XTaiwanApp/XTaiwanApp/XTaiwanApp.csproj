@@ -44,6 +44,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\XImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\MasterMenu\MasterPageItem.cs" />
     <Compile Include="Views\MasterMenu\PagesDetail\Colecciones.xaml.cs">
@@ -75,6 +76,9 @@
     </Compile>
     <Compile Include="Views\XAbsoluteLoaderDemo.xaml.cs">
       <DependentUpon>XAbsoluteLoaderDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\XCarouselPageDemo.xaml.cs">
+      <DependentUpon>XCarouselPageDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\XEntryTypeDemo.xaml.cs">
       <DependentUpon>XEntryTypeDemo.xaml</DependentUpon>
@@ -123,7 +127,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +233,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\MasterMenu\PagesDetail\Configuracion.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\XCarouselPageDemo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
