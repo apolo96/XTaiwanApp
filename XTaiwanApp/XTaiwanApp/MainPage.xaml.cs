@@ -69,5 +69,10 @@ namespace XTaiwanApp
         {
             Navigation.PushAsync(new XCarouselPageDemo());
         }
+
+        private void Button_Clicked_11(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new XListViewDemo());
+        }
     }
 }

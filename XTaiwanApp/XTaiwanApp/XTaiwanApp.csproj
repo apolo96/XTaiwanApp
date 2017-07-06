@@ -38,12 +38,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomElements\ActorCard.xaml.cs">
+      <DependentUpon>ActorCard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CustomElements\MyTabbedPage.xaml.cs">
       <DependentUpon>MyTabbedPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Actor.cs" />
     <Compile Include="Models\XImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\MasterMenu\MasterPageItem.cs" />
@@ -239,6 +243,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\XCarouselPageDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomElements\ActorCard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

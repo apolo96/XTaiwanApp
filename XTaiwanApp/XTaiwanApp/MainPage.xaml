@@ -44,7 +44,7 @@
             </TableSection>
             <TableSection Title="View">
                 <ViewCell>
-                    <Button Text="ListView"/>
+                    <Button Text="ListView" Clicked="Button_Clicked_11"/>
                 </ViewCell>
                 <ViewCell>
                     <Button Text="EntryType" Clicked="Button_Clicked_6"/>

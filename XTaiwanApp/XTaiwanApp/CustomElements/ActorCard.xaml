@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XTaiwanApp.CustomElements.ActorCard">
+  <ViewCell.View>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Image 
+               x:Name="imgSource"
+               HeightRequest="80" 
+               WidthRequest="80"/>
+            <StackLayout Orientation="Vertical">
+                <Label x:Name="lbName" Text="Name" FontSize="22"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Label Text="Codigo:"/>
+                    <Label x:Name="lbID" Text="ID"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Button Text="Compartir" 
+                        TextColor="White"
+                        BackgroundColor="Teal" 
+                        BorderRadius="15"
+                        BorderWidth="2"
+                        BorderColor="Teal"/>
+                    <Button Text="Eliminar" 
+                        TextColor="White"
+                        BackgroundColor="Teal" 
+                        BorderRadius="15"
+                        BorderColor="Teal"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>
