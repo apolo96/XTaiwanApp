@@ -74,5 +74,10 @@ namespace XTaiwanApp
         {
             Navigation.PushAsync(new XListViewDemo());
         }
+
+        private void Button_Clicked_12(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new XListViewTwoColumnItemDemo());
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace XTaiwanApp.Models
 {
-    class Actor
+    public class Actor
     {
         public int ID { get; set; }
         public string Name { get; set; }

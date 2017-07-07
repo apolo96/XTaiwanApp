@@ -81,5 +81,11 @@ namespace XTaiwanApp.Views
             );
             return actors;
         }
+
+        private async void lvActors_Refreshing(object sender, EventArgs e)
+        {
+            await Task.Delay(5000);
+            lvActors.IsRefreshing = false;
+        }
     }
 }

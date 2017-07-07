@@ -47,6 +47,9 @@
                     <Button Text="ListView" Clicked="Button_Clicked_11"/>
                 </ViewCell>
                 <ViewCell>
+                    <Button Text="ListViewTwoColumn" Clicked="Button_Clicked_12"/>
+                </ViewCell>
+                <ViewCell>
                     <Button Text="EntryType" Clicked="Button_Clicked_6"/>
                 </ViewCell>
             </TableSection>

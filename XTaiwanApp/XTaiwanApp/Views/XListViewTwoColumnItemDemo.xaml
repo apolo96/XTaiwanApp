@@ -2,18 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:elements="clr-namespace:XTaiwanApp.CustomElements"
-             x:Class="XTaiwanApp.Views.XListViewDemo">
+             x:Class="XTaiwanApp.Views.XListViewTwoColumnItemDemo">
     <ContentPage.Content>
         <ListView x:Name="lvActors" 
-                  IsPullToRefreshEnabled="True"
-                  Refreshing="lvActors_Refreshing"
+                  SeparatorVisibility="None"
                   HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <elements:ActorCard 
-                        ID="{Binding ID}"
-                        Name="{Binding Name}"
-                        Photo="{Binding Photo}"/>
+                    <elements:ActorTwoCard 
+                        LeftColumn="{Binding LeftColumn}"
+                        RightColumn="{Binding RightColumn}"
+                        ItemTapCommand="{Binding ItemTapCommand}"
+                        />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
