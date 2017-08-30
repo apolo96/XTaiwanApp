@@ -62,7 +62,7 @@ namespace XTaiwanApp
 
         private void Button_Clicked_9(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new XMasterDetailPageDemo());
+            App.Current.MainPage = new XMasterDetailPageDemo();
         }
 
         private void Button_Clicked_10(object sender, EventArgs e)

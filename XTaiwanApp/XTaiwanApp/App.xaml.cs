@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XTaiwanApp.Views;
 
 namespace XTaiwanApp
 {
@@ -12,7 +13,9 @@ namespace XTaiwanApp
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new MainPage();
+            
         }
 
         protected override void OnStart()

@@ -2,7 +2,9 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XTaiwanApp.Views.XMasterDetailPageDemo"             
-             xmlns:pages="clr-namespace:XTaiwanApp.Views.MasterMenu.PagesDetail">
+             xmlns:pages="clr-namespace:XTaiwanApp.Views"
+                  BackgroundColor="Green"                  
+                  >
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" BackgroundColor="#e8e8e8">
             <StackLayout>
@@ -11,7 +13,7 @@
                              BackgroundColor="#1565c0"
                              HeightRequest="120">
                     <Label Text="Master"    
-                           TextColor="White"
+                           TextColor="Orange"
                            FontSize="Medium" 
                            VerticalTextAlignment="Center"
                            HorizontalTextAlignment="Center"
@@ -52,7 +54,8 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <pages:Material Title="Material"/>
+                <!--<pages:Material Title="Material"/>-->
+                <pages:XTabbedPageDemo Title="Menu"/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
